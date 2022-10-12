@@ -1,0 +1,8 @@
+import naves.*
+
+test "validar error" {
+	const nc = new NaveDeCombate()
+	
+	assert.throwsExceptionWithMessage("la lista de mensajes esta vacia",{nc.primerMensajeEmitido()})
+
+}
